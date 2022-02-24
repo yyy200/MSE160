@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{setspace} 
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tabularx}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{MSE160: Formula sheet}
+\rhead{Youssef El Mays}
+\doublespacing
+
+
+
+\newcommand{\SubItem}[1]{
+    {\setlength\itemindent{15pt} \item[-] #1}
+}
+
+\newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
+
+\textheight = 650pt
+
+
+\begin{document}
+    \title{MSE160: Formula Sheet}
+
+    \section{Wave particle duality}
+    \begin{flalign}
+        &\textbf{Energy Quanta:}&\\
+        &u_vdv = \frac{8\pi v^2}{c^3} \cdot \frac{hv}{e^{\frac{hv}{K_bT}}-1}\\
+        &E=hv
+    \end{flalign}
+    \begin{flalign}
+        &\textbf{Photoelectric Effect:}&\\
+        &\frac{1}{2}m_ev^2_k = E_k = hv - W\\
+        &\frac{1}{\lambda} = R_H\left( \frac{1}{n_1^2} -  \frac{1}{n_2^2}\right) \\
+        & R_H = 1.097373\times 10^7m^{-1}
+        & n_1 = 1 \Rightarrow Lyman \\
+        & n_1 = 2 \Rightarrow Balmer \\
+        & n_1 = 3 \Rightarrow Paschen \\
+        & n_1 = 4 \Rightarrow Brackett \\
+        & n_1 = 15 \Rightarrow Pfund \\
+        & n_2 > n_1
+    \end{flalign}
+    \begin{flalign}
+        & \textbf{De Broglie Relationship:}
+        & E^2 = p^2c^2 + m^2c^4 \\
+        & \text{for zero rest mass: } E^2 = p^2c^2 \rightarrow E = pc \\
+        & hv = h\frac{c}{\lambda} = pc \\
+        & \therefore p = \frac{h}{\lambda}
+    \end{flalign}
+    \begin{flalign}
+        & \textbf{Electron diffraction} &\\
+        & E_K = eV - \frac{p^2}{2m} \\
+        & p = \sqrt{2meV} \\
+        & \lambda = \frac{h}{\sqrt{2meV}} \\
+        & \lambda = 2d\sin(\theta) \\
+        & \sin^2(\theta) = \frac{C}{V},\;\text{Where }C=\frac{h^2}{8med^2}
+    \end{flalign}
+    \begin{flalign}
+        & \textbf{Bohr Model} & \\
+        & F_{centripedal} = F_{electric} \\
+        & m\frac{v^2}{r} = \frac{e^2}{4\pi \epsilon_0 r^2} \\
+        & \therefore v^2 = \frac{e^2}{4\pi\epsilon_0 mr} \\ 
+        & I_{orbit} = n\lambda = 2\pi r \;\text{Where n is the quantisation condition} \\
+        & \therefore v = \frac{hn}{2 \pi m r} \\
+        & L = mvr = n\frac{h}{2\pi} = n \hbar \\ 
+        & \text{As such, allowed radii are described by the expression:} \\
+        & r_n = \frac{h^2\epsilon_0n^2}{\pi me^2} = a_{Bohr} n^2 \\ 
+        & r_1 = a_{Bohr} = \frac{h^2\epsilon_0}{\pi me^2} = 5.3\times 10^{-11}m \\
+        & E_k = \frac{1}{2}mv^2 = \frac{e^2}{8\pi \epsilon_0 r} \\
+        & E_T = E_k + E_c = \frac{e^2}{8\pi \epsilon_0 r} - \frac{e^2}{4\pi \epsilon_0 r^2} = - \frac{e^2}{8\pi \epsilon_0 r} \\
+        & \text{Substiting in $r_n$ gives:} \\
+        & E_T = -\left(\frac{me^4}{8\epsilon_0^2h^2}\right)\cdot \frac{1}{n^2} = \frac{-13.6eV}{n^2},\;1\;eV \approx 1.602\times 10^{-19}J \\
+        & \Delta E = E_i - E_f = \frac{me^4}{8\epsilon_0^2h^2}(\frac{1}{n^2_f} - \frac{1}{n^2_i}) \\
+        & text{since:}\;E=hv=h\frac{c}{\lambda} \\
+        & \frac{1}{\lambda} = \frac{me^4}{8\epsilon_0^2h^3}\left(\frac{1}{n^2_f} - \frac{1}{n^2_i}\right) = R_H\left(\frac{1}{n^2_f} - \frac{1}{n^2_i}\right)
+    \end{flalign}
+\end{document}
