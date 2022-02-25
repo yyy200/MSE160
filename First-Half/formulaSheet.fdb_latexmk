@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1645763224 "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.pdf" "formulaSheet" 1645763226
-  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.aux" 1645763225 221 2e7b682d38e41ad66a3105a46809df5c ""
-  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.tex" 1645763224 4449 c492c925663663ababeaa2db22351c48 ""
+["pdflatex"] 1645810963 "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf" "formulaSheet" 1645810964
+  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.aux" 1645810964 221 e1e847b7a6c7e9838f561c0daa642d69 ""
+  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.tex" 1645810963 5879 a44f18dad439cff4c2a7bd5b2b9ebf8d ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -27,6 +27,7 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb" 1248133631 35457 884c5a936fbb3fae6a4c18058662d654 ""
   "/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def" 1616621270 118719 e672239d75d9419ba29850a1b391bd00 ""
@@ -62,11 +63,11 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1623216413 2724733 70c8ce9dedfc031079ac7132cb05f9ae ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "formulaSheet.aux" 1645763225 221 2e7b682d38e41ad66a3105a46809df5c "pdflatex"
-  "formulaSheet.tex" 1645763224 4449 c492c925663663ababeaa2db22351c48 ""
+  "formulaSheet.aux" 1645810964 221 e1e847b7a6c7e9838f561c0daa642d69 "pdflatex"
+  "formulaSheet.tex" 1645810963 5879 a44f18dad439cff4c2a7bd5b2b9ebf8d ""
   (generated)
-  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.pdf"
-  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.log"
+  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.log"
+  "formulaSheet.pdf"
   "formulaSheet.aux"
   "formulaSheet.log"
-  "formulaSheet.pdf"
+  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf"

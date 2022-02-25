@@ -101,4 +101,28 @@
     \end{flalign}
     \textbf{Heisenber's Uncertainty Principle:}\\
     It is impossible to specify simultaneously, with precision, both the momentum and the position of a particle.
+    \begin{flalign}
+        &\textbf{Shrodinger's Equation Derivation} &\\
+        & E = E_k + E_p = \frac{1}{2}mv^2 + V = \frac{p^2}{2m} + V \\
+        & i\hbar\frac{\partial}{\partial t}\Psi(x,t) = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}\Psi(x,t)+V\Psi(x,t)
+    \end{flalign}
+    \begin{flalign}
+        &\textbf{Time independent Shrodinger's Equation} & \\
+        & \Psi(x,t) = \phi(t)\psi(t) \\
+        & i\hbar\frac{1}{\phi(t)}\frac{\partial\phi(t)}{\partial t} = -\frac{\hbar^2}{2m\psi(x)}\frac{\partial^2\psi(x)}{\partial x^2}+V \\
+        & \therefore \; i\frac{A}{\hbar}\phi=\frac{\partial\phi(t)}{\partial t} \\
+        & \phi(t) = Ce^{-i(\frac{A}{\hbar})t} \Rightarrow \frac{d \phi(t)}{d t} = -i(\frac{A}{\hbar})Ce^{-i(\frac{A}{\hbar})t}\\
+        & \text{By unit analysis: } A=E \\
+        & \therefore \; E\psi=-\frac{\hbar^2}{2m}\frac{d^2\psi}{d x^2} + V\psi
+    \end{flalign}
+    \begin{flalign}
+        &\textbf{Electron in a box} & \\
+        &V(0) = V(L) = \inf \\
+        & V(x) = 0\; \forall\, x \,|\, 0<x<L \\
+        & \therefore\, -\frac{\hbar^2}{2m}\frac{d^2\psi}{d x^2} = E\psi \\
+        & \text{General Solution: } \psi = A\sin(kx) + B\cos(kx) \\
+        & \frac{d^2\psi}{dx^2} = -k^2(A\sin(kx)) + B\cos(kx)) = -k^2\psi \\
+        & -\frac{\hbar^2}{2m}\frac{d^2\psi}{d x^2} = \left(-\frac{\hbar^2}{2m}\right) \cdot (-k^2\psi) = E\psi \\
+        & E = \frac{\hbar^2k^2}{2m}
+    \end{flalign}
 \end{document}
