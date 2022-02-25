@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1645738222 "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.pdf" "formulaSheet" 1645738232
-  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.aux" 1645738223 221 9101a34749e0c906ef15b09d58641a0e ""
-  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.tex" 1645738222 3165 512cbab24d7904f473142803f1375f94 ""
+["pdflatex"] 1645763224 "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.pdf" "formulaSheet" 1645763226
+  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.aux" 1645763225 221 2e7b682d38e41ad66a3105a46809df5c ""
+  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.tex" 1645763224 4449 c492c925663663ababeaa2db22351c48 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -62,11 +62,11 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1623216413 2724733 70c8ce9dedfc031079ac7132cb05f9ae ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "formulaSheet.aux" 1645738223 221 9101a34749e0c906ef15b09d58641a0e "pdflatex"
-  "formulaSheet.tex" 1645738222 3165 512cbab24d7904f473142803f1375f94 ""
+  "formulaSheet.aux" 1645763225 221 2e7b682d38e41ad66a3105a46809df5c "pdflatex"
+  "formulaSheet.tex" 1645763224 4449 c492c925663663ababeaa2db22351c48 ""
   (generated)
-  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.log"
-  "formulaSheet.pdf"
-  "formulaSheet.log"
   "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.pdf"
+  "/Users/youssefelmays/Desktop/Latex/MSE160/formulaSheet.log"
   "formulaSheet.aux"
+  "formulaSheet.log"
+  "formulaSheet.pdf"
