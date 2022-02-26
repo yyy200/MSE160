@@ -10,6 +10,9 @@
 \usepackage{float}
 \usepackage{tabularx}
 
+\usepackage{chngpage}
+
+
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -46,7 +49,7 @@
         & n_1 = 2 \Rightarrow Balmer \\
         & n_1 = 3 \Rightarrow Paschen \\
         & n_1 = 4 \Rightarrow Brackett \\
-        & n_1 = 15 \Rightarrow Pfund \\
+        & n_1 = 5 \Rightarrow Pfund \\
         & n_2 > n_1
     \end{flalign}
     \subsection{De Broglie Relationship}
@@ -80,7 +83,7 @@
         & \text{Substiting in $r_n$ gives:} \\
         & E_T = -\left(\frac{me^4}{8\epsilon_0^2h^2}\right)\cdot \frac{1}{n^2} = \frac{-13.6eV}{n^2},\;1\;eV \approx 1.602\times 10^{-19}J \\
         & \Delta E = E_i - E_f = \frac{me^4}{8\epsilon_0^2h^2}(\frac{1}{n^2_f} - \frac{1}{n^2_i}) \\
-        & text{since:}\;E=hv=h\frac{c}{\lambda} \\
+        & \text{since: }\;E=hv=h\frac{c}{\lambda} \\
         & \frac{1}{\lambda} = \frac{me^4}{8\epsilon_0^2h^3}\left(\frac{1}{n^2_f} - \frac{1}{n^2_i}\right) = R_H\left(\frac{1}{n^2_f} - \frac{1}{n^2_i}\right)
     \end{flalign}
     \subsection{Waves}
@@ -147,4 +150,78 @@
         $m_s$ = Spin quantum number $\{ m_s\,|\, m_s \in \{\frac{1}{2},\,-\frac{1}{2}\} \}$
 
     \section{Bonding and Crystaline Structure}
+    \begin{table}[H]
+        \begin{adjustwidth}{-.8in}{-.8in}  
+        \centering
+        \begin{tabularx}{1.3\textwidth}{| c | L | L | L | >{\centering\arraybackslash}X |}
+            \hline
+            \textbf{Bond} &
+            \textbf{Action with Charges}&
+            $\mathbf{\varDelta E}$& 
+            $\mathbf{E_{avg}}$ &
+            \textbf{Bond Energy}\\
+            \hline
+            \textbf{Ionic} &
+            Exchange &
+            High&
+            Low &
+            Large \\
+            \hline
+            \textbf{Covalent} &
+            Sharing &
+            Low&
+            High &
+            Variable \\
+            \hline
+            \textbf{Metalic} &
+            Delocalized Sharing &
+            Low &
+            Low & 
+            Variable\\
+            \hline
+        \end{tabularx}
+    \end{adjustwidth}
+    \end{table}
+    \subsection{I don't have a good title yet}
+    \begin{flalign}
+        &E_N = E_A+E_R = -\frac{A}{r} + \frac{B}{r^n} &\\
+        & ionic\;character = 1-e^{-\frac{(X_A - X_B)^2}{4}} \\
+        &\frac{\varDelta L}{L_0} = \alpha\left(T_2-T_1\right) \\
+        & APF = \frac{n_a \cdot \frac{4}{3}\pi r_a^3 }{a^3}
+    \end{flalign}
+    \begin{table}[H]
+        \begin{adjustwidth}{-.4in}{-.4in}  
+            \centering
+            \begin{tabularx}{1.1\textwidth}{| X | L | L | c |}
+                \hline
+                \textbf{Structure} & 
+                \textbf{Coordination Number} & 
+                \textbf{Atoms/unit cell} &
+                \textbf{APF} \\
+                \hline
+                Simple Cubic &
+                6 &
+                8 &
+                0.52 \\
+                \hline
+                Body Centered Cubic (BCC) &
+                8 &
+                2 &
+                .68 \\
+                \hline
+                Face Centered Cubic &
+                12 &
+                4 &
+                .74\\
+                \hline
+            \end{tabularx}
+        \end{adjustwidth}
+    \end{table}
+
+    \subsection{Some densities}
+    \begin{flalign}
+        & \rho = \frac{nA}{V_cN_a} & \\
+        &LD = \frac{n_a}{r}
+    \end{flalign}
+
 \end{document}
