@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.8)  25 FEB 2022 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.8)  26 FEB 2022 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -209,29 +209,67 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] [3] [4] [5] [6] (/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.aux) ) 
+] [2] [3] [4] [5]
+<images/solidification.png, id=34, 792.9625pt x 233.87375pt>
+File: images/solidification.png Graphic file (type png)
+<use images/solidification.png>
+Package pdftex.def Info: images/solidification.png  used on input line 246.
+(pdftex.def)             Requested size: 345.0pt x 101.75566pt.
+ [6 </Users/youssefelmays/Desktop/Latex/MSE160/First-Half/images/solidification.png>]
+<images/vacancy.png, id=40, 775.89874pt x 195.73125pt>
+File: images/vacancy.png Graphic file (type png)
+<use images/vacancy.png>
+Package pdftex.def Info: images/vacancy.png  used on input line 270.
+(pdftex.def)             Requested size: 345.0pt x 87.03293pt.
+<images/Interstitial.png, id=41, 788.9475pt x 212.795pt>
+File: images/Interstitial.png Graphic file (type png)
+<use images/Interstitial.png>
+Package pdftex.def Info: images/Interstitial.png  used on input line 275.
+(pdftex.def)             Requested size: 345.0pt x 93.05211pt.
+ [7 </Users/youssefelmays/Desktop/Latex/MSE160/First-Half/images/vacancy.png> </Users/youssefelmays/Desktop/Latex/MSE160/First-Half/images/Interstitial.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 282--287
+
+ []
+
+<images/Edge.png, id=48, 692.5875pt x 421.575pt>
+File: images/Edge.png Graphic file (type png)
+<use images/Edge.png>
+Package pdftex.def Info: images/Edge.png  used on input line 300.
+(pdftex.def)             Requested size: 345.0pt x 210.00218pt.
+[8 </Users/youssefelmays/Desktop/Latex/MSE160/First-Half/images/Edge.png>]
+<images/Screw.png, id=53, 881.2925pt x 451.6875pt>
+File: images/Screw.png Graphic file (type png)
+<use images/Screw.png>
+Package pdftex.def Info: images/Screw.png  used on input line 309.
+(pdftex.def)             Requested size: 345.0pt x 176.81906pt.
+<images/Twin.png, id=54, 699.61375pt x 285.065pt>
+File: images/Twin.png Graphic file (type png)
+<use images/Twin.png>
+Package pdftex.def Info: images/Twin.png  used on input line 317.
+(pdftex.def)             Requested size: 345.0pt x 140.57477pt.
+ [9 </Users/youssefelmays/Desktop/Latex/MSE160/First-Half/images/Screw.png> </Users/youssefelmays/Desktop/Latex/MSE160/First-Half/images/Twin.png>] [10] (/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.aux) ) 
 Here is how much of TeX's memory you used:
- 3500 strings out of 478994
- 47937 string characters out of 5858185
- 384736 words of memory out of 5000000
- 20953 multiletter control sequences out of 15000+600000
+ 3539 strings out of 478994
+ 48702 string characters out of 5858185
+ 384744 words of memory out of 5000000
+ 20984 multiletter control sequences out of 15000+600000
  407266 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,13n,74p,281b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,14n,74p,281b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb>
-Output written on /Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf (6 pages, 176852 bytes).
+Output written on /Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf (10 pages, 1749400 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,7 +16,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{MSE160: Formula sheet}
+\lhead{MSE160: Formula sheet/Notes}
 \rhead{Youssef El Mays}
 \doublespacing
 
@@ -32,7 +32,11 @@
 
 
 \begin{document}
-    \title{MSE160: Formula Sheet}
+    \title{MSE160: Formula Sheet/Notes}
+    % \begin{titlepage}
+    %     \tableofcontents
+    % \end{titlepage}
+    
 
     \section{Atomic Structure}
     \subsection{Energy}
@@ -207,12 +211,12 @@
                 Body Centered Cubic (BCC) &
                 8 &
                 2 &
-                .68 \\
+                0.68 \\
                 \hline
                 Face Centered Cubic &
                 12 &
                 4 &
-                .74\\
+                0.74\\
                 \hline
             \end{tabularx}
         \end{adjustwidth}
@@ -221,7 +225,127 @@
     \subsection{Some densities}
     \begin{flalign}
         & \rho = \frac{nA}{V_cN_a} & \\
-        &LD = \frac{n_a}{r}
+        &LD = \frac{n_a}{r} \\
+        & PD = \frac{n}{a^2}
     \end{flalign}
 
+    \subsection{X-Ray Diffraction} 
+    \begin{flalign}
+        & d = \frac{n\lambda}{2\sin(\theta_c)} & \\
+        & d = \frac{a}{\sqrt{i^2+j^2+k^2}}
+    \end{flalign}
+    d = planar spacing \\
+    $\theta_c$ = critical angle
+
+    \subsection{Imperfections and Diffusion}
+    \subsubsection{Solidification}
+        \textbf{Nucleation:} Nuclei of solid form in liquid \\
+        \textbf{Growth:} Nuclei grow to form crystals – crystals grow until all liquid consumed leaving grains  
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{images/solidification.png}
+    \end{figure}
+    \textbf{Grain types:}
+    \begin{enumerate}
+        \item Equiaxed: Same size in all directions
+        \item Columnar: Elongated
+    \end{enumerate}
+
+    \subsubsection{Imperfections}
+    \textbf{Types of Imperfections:}
+    \begin{enumerate}
+        \item Point Defects
+            \SubItem{Vacancies} 
+            \SubItem{Interstitial Atoms}
+            \SubItem{Substitutional Atoms}
+        \item Line Defects
+            \SubItem{Dislocations}
+        \item Areal Defects
+            \SubItem{Grain boundaries}
+    \end{enumerate}
+
+    \textbf{Vacancy:}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{images/vacancy.png}
+    \end{figure}
+    \textbf{Interstitial Atoms}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{images/Interstitial.png}
+    \end{figure}
+
+    \begin{flalign}
+       & \frac{N_v}{N} = e^{\frac{-Q_v}{kT}} & \\
+       & k = 1.38\times 10^{-23} \frac{J}{atom \cdot K} = 8.62 \times 10^{-5}\frac{eV}{atom \cdot K}  \\
+       & N = \rho V \frac{N_A}{A}
+    \end{flalign}
+    $N_v$ = No. of Defects \\
+    $N$ = No. of potential defect sites \\
+    $Q_v$ = Activation Energy\\\\
+    \textbf{Conditions for substitutional solid solutions: Hume – Rothery rules}
+    \begin{enumerate}
+        \item $\varDelta r < 15\%$
+        \item Proximity in periodic table (Low $\varDelta E$)
+        \item Same crystal structure for pure metals
+        \item Valency
+    \end{enumerate}
+    \textbf{Edge Dislocations}
+    \begin{enumerate}
+        \item Extra half plane inserted into a crystal structure
+        \item Burgers Vector, b is perpendicular $\perp$ to the dislocation line
+    \end{enumerate}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{images/Edge.png}
+    \end{figure}
+    \textbf{Screw Dislocations}
+    \begin{enumerate}
+        \item spiral planar ramp resulting from shear deformation
+        \item b is parallel $\parallel$ to dislocation line
+    \end{enumerate}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{images/Screw.png}
+    \end{figure}
+    \textbf{Twin boundary (plane)}
+    \begin{enumerate}
+        \item Relfection of atom positions across the twin plane
+    \end{enumerate}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\textwidth]{images/Twin.png}
+    \end{figure}
+    \textbf{Staking Faults}
+    \begin{enumerate}
+        \item For FCC – An error in ABc packing sequence
+        \item e.g. ABCABCABC $\rightarrow$ ABCABABC
+    \end{enumerate}
+    \pagebreak
+    \subsection{Diffusion}
+    \textbf{Inter-Diffusion:} 
+    In an alloy, atoms migrate from regions of high 
+    concentration to regions of low concentration \\
+    \textbf{Self-Diffusion:} 
+    In an elemental solid, atoms migrate \\
+    \textbf{Vacancy Diffusion:}
+    Atoms exchange vacancies. The rate depends on the concentration
+    of vacancies and the activation energy for an exchange \\
+    \textbf{Intersitial Diffusion:}
+    Smaller atoms diffuse between host attoms. This happens more rapidly than vacancy
+    diffusion because they aren't strongly 
+    \subsubsection{Time independant}
+    \begin{flalign}
+        &J = \frac{M}{At} = \frac{1}{A}\frac{dM}{dt}& \\
+        &J = -D\frac{dC}{dx} \\
+        & \text{If linear } \frac{dC}{dx} \cong \frac{\Delta C}{\Delta x} = \frac{C_2 - C_1}{x_2-x_2} \\
+        & D = D_0\cdot e^{-\frac{Q_d}{RT}} \\
+    \end{flalign}
+    \subsubsection{Non Steady State Diffusion}
+    \begin{flalign}
+        & \frac{\partial C}{\partial t} = D\frac{\partial^2 C}{\partial x^2} & \\
+        &\frac{C(x,t) - C_0}{C_s - C_0} = 1 - erf\left(\frac{x}{s\sqrt{Dt}}\right),
+        \;\text{where: } erf(z)=\frac{2}{\sqrt{\pi}} \int_0^ze^{-y^2}dy
+    \end{flalign}
+    \section{Phase diagrams}
 \end{document}
