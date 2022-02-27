@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1645923921 "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf" "formulaSheet" 1645923922
-  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.aux" 1645923922 2569 b439a7f3f5f50b1d1f13fb0bf67a07f1 ""
-  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.tex" 1645923920 14329 422d356f5c1e3f6515ec83231190100d ""
+["pdflatex"] 1645972990 "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.tex" "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf" "formulaSheet" 1645972992
+  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.aux" 1645972991 2569 b439a7f3f5f50b1d1f13fb0bf67a07f1 ""
+  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.tex" 1645972988 14329 c571db2384f6fd3b1738b81f5b6a32f2 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -67,8 +67,8 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1623216413 2724733 70c8ce9dedfc031079ac7132cb05f9ae ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "formulaSheet.aux" 1645923922 2569 b439a7f3f5f50b1d1f13fb0bf67a07f1 "pdflatex"
-  "formulaSheet.tex" 1645923920 14329 422d356f5c1e3f6515ec83231190100d ""
+  "formulaSheet.aux" 1645972991 2569 b439a7f3f5f50b1d1f13fb0bf67a07f1 "pdflatex"
+  "formulaSheet.tex" 1645972988 14329 c571db2384f6fd3b1738b81f5b6a32f2 ""
   "images/Edge.png" 1645912102 328566 3112a2bb2ea2c8e6c3422f84f6f43b3e ""
   "images/Interstitial.png" 1645909869 261133 c1ff629160471cb7a31349837b9eae65 ""
   "images/Lever.png" 1645923839 191689 e7c3d3f6be8ce11f2a103d03b981e1fb ""
@@ -77,8 +77,8 @@
   "images/solidification.png" 1645908934 108299 90af5493d93200403eccb916e49bdde2 ""
   "images/vacancy.png" 1645909792 206917 89d89d73918cd9775b6953c4d7279537 ""
   (generated)
-  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf"
-  "formulaSheet.aux"
   "formulaSheet.pdf"
-  "formulaSheet.log"
   "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.log"
+  "formulaSheet.aux"
+  "/Users/youssefelmays/Desktop/Latex/MSE160/First-Half/formulaSheet.pdf"
+  "formulaSheet.log"
